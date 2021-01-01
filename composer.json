@@ -1,0 +1,24 @@
+{
+    "name": "francislavoie/php-caddy",
+    "description": "A for-fun implementation of Caddy's module system, in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francis Lavoie",
+            "email": "lavofr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "php-di/php-di": "^6.3",
+        "react/event-loop": "^1.1",
+        "react/http": "^1.2",
+        "symfony/console": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpCaddy\\": "src/"
+        }
+    }
+}
